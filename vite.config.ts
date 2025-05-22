@@ -7,6 +7,7 @@ import { generateExamples } from "./scripts/examples.js";
 // https://vitejs.dev/config/
 export default defineConfig({
     clearScreen: false,
+    base: './',
     plugins: [
         react(),
         viteStaticCopy({
